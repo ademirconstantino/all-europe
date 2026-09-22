@@ -21,10 +21,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-The project is configured for the custom domain:
-
-https://alleurope.it/
-
-The `public/CNAME` file contains the custom domain.
-# all-europe

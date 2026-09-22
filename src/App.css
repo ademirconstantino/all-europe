@@ -282,3 +282,156 @@ button { font-family: inherit; }
   .ae-hero-buttons { flex-direction: column; align-items: stretch; }
   .ae-btn { width: 100%; }
 }
+
+/* =========================
+   LESSON PACKAGES
+   ========================= */
+
+.ae-packages {
+  background: var(--ae-cream);
+}
+
+.ae-packages-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 420px));
+  justify-content: center;
+  gap: 25px;
+}
+
+.ae-package-card {
+  position: relative;
+  padding: 50px 45px;
+  background: white;
+  border: 1px solid var(--ae-border);
+  text-align: center;
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    border-color .25s ease;
+}
+
+.ae-package-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(16, 36, 62, .12);
+}
+
+.ae-package-featured {
+  border: 2px solid var(--ae-green);
+}
+
+.ae-package-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 7px 16px;
+
+  background: var(--ae-green);
+  color: white;
+
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+}
+
+.ae-package-label {
+  display: block;
+  margin-bottom: 25px;
+
+  color: var(--ae-red);
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.ae-package-hours {
+  color: var(--ae-navy);
+
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.ae-package-hours small {
+  font-family: var(--ae-serif);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.ae-package-price {
+  margin-top: 25px;
+
+  color: var(--ae-navy);
+
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+.ae-package-price span {
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.ae-package-description {
+  margin: 18px 0 25px;
+
+  color: var(--ae-muted);
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ae-package-features {
+  margin: 0 0 30px;
+  padding: 25px 0;
+
+  border-top: 1px solid var(--ae-border);
+  border-bottom: 1px solid var(--ae-border);
+
+  list-style: none;
+  text-align: left;
+}
+
+.ae-package-features li {
+  margin: 10px 0;
+
+  color: var(--ae-muted);
+
+  font-size: 13px;
+}
+
+.ae-package-button {
+  width: 100%;
+
+  border: 0;
+  cursor: pointer;
+
+  background: var(--ae-navy);
+  color: white;
+}
+
+.ae-package-button:hover {
+  background: var(--ae-green);
+}
+
+.ae-package-note {
+  margin: 35px 0 0;
+
+  color: var(--ae-muted);
+
+  text-align: center;
+  font-size: 13px;
+}
+
+.ae-package-note strong {
+  color: var(--ae-navy);
+}

@@ -35,7 +35,7 @@ function Footer() {
 
           <div className="ae-footer-column ae-footer-contact">
             <h4>Get in touch</h4>
-            <a href="mailto:hello@alleurope.it">hello@alleurope.it</a>
+            <a href="mailto:ademirconstantino@gmail.com">Me envie um e-mail!</a>
             <p>
               Online language classes
               <br />
@@ -50,9 +50,9 @@ function Footer() {
           </span>
 
           <div className="ae-footer-social">
-            <a href="#contact">Instagram</a>
-            <a href="#contact">Facebook</a>
-            <a href="#contact">LinkedIn</a>
+            <a href="https://www.instagram.com/ademirconstantino.it/">Instagram</a>
+            <a href="https://www.facebook.com/ademir.constantino">Facebook</a>
+            <a href="https://www.linkedin.com/in/ademir-constantino/">LinkedIn</a>
           </div>
         </div>
       </div>

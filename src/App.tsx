@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import LessonPackages from "./LessonPackages";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <Navbar />
 
       <main>
+        {/* HERO */}
         <section className="ae-hero" id="home">
           <div className="ae-hero-overlay" />
+
           <div className="ae-container ae-hero-content">
             <motion.div
               className="ae-hero-copy"
@@ -18,7 +21,7 @@ function App() {
               transition={{ duration: 0.8 }}
             >
               <span className="ae-eyebrow">
-                LANGUAGE SCHOOL · ENGLISH & ITALIAN
+                PRIVATE LESSONS · ENGLISH & ITALIAN
               </span>
 
               <h1>
@@ -28,17 +31,18 @@ function App() {
               </h1>
 
               <p>
-                Aprenda Inglês e Italiano de forma prática, natural e
-                personalizada. Mais do que estudar um idioma, prepare-se
-                para viver novas experiências.
+                <strong>Aulas particulares de Inglês e Italiano.</strong>{" "}
+                Aulas individuais, online e personalizadas para você
+                aprender no seu ritmo e alcançar seus objetivos.
               </p>
 
               <div className="ae-hero-buttons">
                 <a href="#courses" className="ae-btn ae-btn-primary">
-                  Conheça nossos cursos
+                  Conheça as aulas particulares
                 </a>
+
                 <a href="#contact" className="ae-btn ae-btn-outline">
-                  Aula experimental
+                  Entre em contato
                 </a>
               </div>
             </motion.div>
@@ -49,10 +53,10 @@ function App() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              <strong>EN</strong>
-              <span>+</span>
-              <strong>IT</strong>
-              <small>Learn · Connect · Go further</small>
+              <strong>1</strong>
+              <span>×</span>
+              <strong>1</strong>
+              <small>Private · Personal · Online</small>
             </motion.div>
           </div>
 
@@ -62,6 +66,7 @@ function App() {
           </div>
         </section>
 
+        {/* INTRO */}
         <section className="ae-section ae-intro" id="about">
           <div className="ae-container ae-two-columns">
             <motion.div
@@ -70,11 +75,12 @@ function App() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <span className="ae-label">ALL EUROPE</span>
+              <span className="ae-label">AULAS PARTICULARES</span>
+
               <h2>
-                Idiomas que
+                Um idioma
                 <br />
-                <em>abrem caminhos.</em>
+                <em>feito para você.</em>
               </h2>
             </motion.div>
 
@@ -85,14 +91,18 @@ function App() {
               viewport={{ once: true }}
             >
               <p>
-                Na ALL EUROPE, acreditamos que aprender um idioma é muito
-                mais do que memorizar palavras e regras gramaticais.
+                Na ALL EUROPE, você não entra em uma turma. Você tem
+                <strong> aulas particulares e individuais</strong>,
+                adaptadas ao seu nível, objetivos e ritmo de aprendizagem.
               </p>
+
               <p>
-                É desenvolver confiança para conversar, viajar, estudar,
-                trabalhar e criar novas conexões com pessoas e culturas
-                do mundo inteiro.
+                As aulas são voltadas para quem deseja aprender Inglês ou
+                Italiano para conversar, viajar, estudar, trabalhar,
+                obter uma certificação ou viver uma experiência
+                internacional.
               </p>
+
               <a href="#methodology" className="ae-text-link">
                 Conheça nossa metodologia →
               </a>
@@ -100,19 +110,28 @@ function App() {
           </div>
         </section>
 
+        {/* LANGUAGES */}
         <section className="ae-section ae-languages" id="courses">
           <div className="ae-container">
             <div className="ae-centered-heading">
-              <span className="ae-label">CHOOSE YOUR LANGUAGE</span>
+              <span className="ae-label">
+                AULAS PARTICULARES · 1-TO-1
+              </span>
+
               <h2>
-                Dois idiomas.
+                Escolha seu idioma.
                 <br />
-                <em>Infinitas possibilidades.</em>
+                <em>Aprenda individualmente.</em>
               </h2>
-              <p>Escolha seu próximo idioma e comece uma nova jornada.</p>
+
+              <p>
+                Aulas particulares de Inglês e Italiano, online e
+                personalizadas para suas necessidades.
+              </p>
             </div>
 
             <div className="ae-language-grid">
+              {/* ENGLISH */}
               <motion.article
                 className="ae-language-card ae-english"
                 initial={{ opacity: 0, y: 40 }}
@@ -120,22 +139,31 @@ function App() {
                 viewport={{ once: true }}
               >
                 <div className="ae-card-number">01</div>
+
                 <div className="ae-flag">🇬🇧</div>
-                <span className="ae-card-label">ENGLISH</span>
+
+                <span className="ae-card-label">
+                  PRIVATE ENGLISH LESSONS
+                </span>
+
                 <h3>
                   English
                   <br />
                   <em>for your world.</em>
                 </h3>
+
                 <p>
-                  Inglês para conversação, viagens, carreira, estudos e
-                  comunicação internacional.
+                  <strong>Aulas particulares de Inglês</strong> para
+                  conversação, viagens, carreira, estudos e comunicação
+                  internacional.
                 </p>
+
                 <a href="#contact" className="ae-card-link">
-                  Comece seu inglês →
+                  Quero aprender Inglês →
                 </a>
               </motion.article>
 
+              {/* ITALIAN */}
               <motion.article
                 className="ae-language-card ae-italian"
                 initial={{ opacity: 0, y: 40 }}
@@ -144,17 +172,25 @@ function App() {
                 transition={{ delay: 0.15 }}
               >
                 <div className="ae-card-number">02</div>
+
                 <div className="ae-flag">🇮🇹</div>
-                <span className="ae-card-label">ITALIANO</span>
+
+                <span className="ae-card-label">
+                  LEZIONI PRIVATE DI ITALIANO
+                </span>
+
                 <h3>
                   Italiano
                   <br />
                   <em>per la tua vita.</em>
                 </h3>
+
                 <p>
-                  Italiano para viagens, cidadania, trabalho, estudos,
-                  cultura e conversação.
+                  <strong>Lezioni private di italiano</strong> para
+                  viagens, cidadania, trabalho, estudos, cultura e
+                  conversação.
                 </p>
+
                 <a href="#contact" className="ae-card-link">
                   Inizia il tuo italiano →
                 </a>
@@ -163,48 +199,64 @@ function App() {
           </div>
         </section>
 
+        <LessonPackages />
+
+        {/* METHODOLOGY */}
         <section className="ae-section ae-method" id="methodology">
           <div className="ae-container">
             <div className="ae-centered-heading ae-light-heading">
-              <span className="ae-label">OUR METHOD</span>
+              <span className="ae-label">
+                METODOLOGIA · AULAS INDIVIDUAIS
+              </span>
+
               <h2>
                 Aprender pode ser
                 <br />
                 <em>simples.</em>
               </h2>
+
               <p>
-                Uma abordagem prática, humana e focada na comunicação.
+                Uma abordagem prática, humana e focada na comunicação,
+                totalmente adaptada a cada aluno.
               </p>
             </div>
 
             <div className="ae-method-grid">
               <div className="ae-method-item">
                 <span>01</span>
+
                 <div>
                   <h3>Speak</h3>
+
                   <p>
                     Pratique desde o primeiro dia e desenvolva confiança
-                    para falar.
+                    para falar o idioma em situações reais.
                   </p>
                 </div>
               </div>
+
               <div className="ae-method-item">
                 <span>02</span>
+
                 <div>
                   <h3>Connect</h3>
+
                   <p>
-                    Aprenda através de situações reais e contextos
-                    culturais.
+                    Aprenda através de situações reais, conversação e
+                    contextos culturais.
                   </p>
                 </div>
               </div>
+
               <div className="ae-method-item">
                 <span>03</span>
+
                 <div>
                   <h3>Progress</h3>
+
                   <p>
                     Evolua com objetivos claros e acompanhamento
-                    personalizado.
+                    individual durante as aulas.
                   </p>
                 </div>
               </div>
@@ -212,58 +264,113 @@ function App() {
           </div>
         </section>
 
+        {/* WHY */}
         <section className="ae-section ae-why">
           <div className="ae-container">
             <div className="ae-centered-heading">
-              <span className="ae-label">WHY ALL EUROPE</span>
+              <span className="ae-label">
+                POR QUE AULAS PARTICULARES?
+              </span>
+
               <h2>
-                Mais que uma
+                Seu aprendizado.
                 <br />
-                <em>escola de idiomas.</em>
+                <em>Seu ritmo.</em>
               </h2>
             </div>
 
             <div className="ae-features">
               <div className="ae-feature">
                 <div className="ae-feature-icon">01</div>
-                <h3>Personalização</h3>
-                <p>Conteúdo e ritmo adaptados aos seus objetivos.</p>
+
+                <h3>100% Individual</h3>
+
+                <p>
+                  Você tem a atenção do professor durante toda a aula.
+                </p>
               </div>
+
               <div className="ae-feature">
                 <div className="ae-feature-icon">02</div>
-                <h3>Conversação</h3>
-                <p>O foco está em usar o idioma, não apenas estudá-lo.</p>
+
+                <h3>Personalização</h3>
+
+                <p>
+                  Conteúdo e ritmo adaptados aos seus objetivos.
+                </p>
               </div>
+
               <div className="ae-feature">
                 <div className="ae-feature-icon">03</div>
-                <h3>Cultura</h3>
-                <p>Idioma e cultura caminham juntos em nossa metodologia.</p>
+
+                <h3>Conversação</h3>
+
+                <p>
+                  O foco está em usar o idioma e desenvolver confiança
+                  para falar.
+                </p>
               </div>
+
               <div className="ae-feature">
                 <div className="ae-feature-icon">04</div>
+
                 <h3>Flexibilidade</h3>
-                <p>Uma experiência pensada para acompanhar sua rotina.</p>
+
+                <p>
+                  Aulas online pensadas para acompanhar sua rotina.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* CONTACT */}
         <section className="ae-cta" id="contact">
           <div className="ae-container ae-cta-inner">
             <div>
-              <span className="ae-label">YOUR JOURNEY STARTS HERE</span>
+              <span className="ae-label">
+                AULAS PARTICULARES · ENTRE EM CONTATO
+              </span>
+
               <h2>
-                Pronto para dar
+                Comece sua
                 <br />
-                o próximo passo?
+                jornada.
               </h2>
+
+              <p>
+                Agende uma conversa e saiba mais sobre as
+                <strong> aulas particulares de Inglês e Italiano.</strong>
+              </p>
+
+              <div className="ae-contact-phones">
+                <a href="tel:+393342438886">
+                  🇮🇹 +39 334 243 88 86
+                </a>
+
+                <a href="tel:+5541996075187">
+                  🇧🇷 +55 41 99607 5187
+                </a>
+              </div>
             </div>
-            <a
-              className="ae-btn ae-btn-light"
-              href="mailto:hello@alleurope.it?subject=Aula%20experimental%20ALL%20EUROPE"
-            >
-              Fale conosco →
-            </a>
+
+            <div className="ae-contact-actions">
+              <a
+                className="ae-btn ae-btn-light"
+                href="mailto:ademirconstantino@gmail.com?subject=Aulas%20particulares%20ALL%20EUROPE"
+              >
+                Enviar e-mail →
+              </a>
+
+              <a
+                className="ae-btn ae-btn-light"
+                href="https://wa.me/393342438886"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp →
+              </a>
+            </div>
           </div>
         </section>
       </main>
