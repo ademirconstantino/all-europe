@@ -435,3 +435,28 @@ button { font-family: inherit; }
 .ae-package-note strong {
   color: var(--ae-navy);
 }
+
+.ae-language-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.ae-language-grid .ae-language-card:nth-child(3) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: calc((100% - 2rem) / 2);
+}
+
+@media screen and (max-width: 768px) {
+  .ae-language-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ae-language-grid .ae-language-card:nth-child(3) {
+    grid-column: auto;
+    max-width: none;
+    width: 100%;
+  }
+}

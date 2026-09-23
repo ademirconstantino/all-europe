@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://ademirconstantino.github.io/all-europe/",
+  "homepage": "https://alleurope.it.eu.org/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

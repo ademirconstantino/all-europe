@@ -21,7 +21,7 @@ function App() {
               transition={{ duration: 0.8 }}
             >
               <span className="ae-eyebrow">
-                PRIVATE LESSONS · ENGLISH & ITALIAN
+                PRIVATE LESSONS · ENGLISH · ITALIAN · PORTUGUESE
               </span>
 
               <h1>
@@ -31,7 +31,9 @@ function App() {
               </h1>
 
               <p>
-                <strong>Aulas particulares de Inglês e Italiano.</strong>{" "}
+                <strong>
+                  Aulas particulares de Inglês, Italiano e Português.
+                </strong>{" "}
                 Aulas individuais, online e personalizadas para você
                 aprender no seu ritmo e alcançar seus objetivos.
               </p>
@@ -97,9 +99,9 @@ function App() {
               </p>
 
               <p>
-                As aulas são voltadas para quem deseja aprender Inglês ou
-                Italiano para conversar, viajar, estudar, trabalhar,
-                obter uma certificação ou viver uma experiência
+                As aulas são voltadas para quem deseja aprender Inglês,
+                Italiano ou Português para conversar, viajar, estudar,
+                trabalhar, obter uma certificação ou viver uma experiência
                 internacional.
               </p>
 
@@ -125,7 +127,7 @@ function App() {
               </h2>
 
               <p>
-                Aulas particulares de Inglês e Italiano, online e
+                Aulas particulares de Inglês, Italiano e Português, online e
                 personalizadas para suas necessidades.
               </p>
             </div>
@@ -195,6 +197,39 @@ function App() {
                   Inizia il tuo italiano →
                 </a>
               </motion.article>
+
+                  {/* PORTUGUESE */}
+              <motion.article
+                className="ae-language-card ae-english"
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.3 }}
+                  >
+                    <div className="ae-card-number">03</div>
+
+                    <div className="ae-flag">🇧🇷</div>
+
+                    <span className="ae-card-label">
+                      AULAS PARTICULARES DE PORTUGUÊS
+                    </span>
+
+                    <h3>
+                      Português
+                      <br />
+                      <em>para sua vida.</em>
+                    </h3>
+
+                    <p>
+                      <strong>Aulas particulares de Português</strong> para
+                      conversação, escrita, viagens, estudos, trabalho e
+                      comunicação.
+                    </p>
+
+                    <a href="#contact" className="ae-card-link">
+                      Quero aprender Português →
+                    </a>
+                  </motion.article>
             </div>
           </div>
         </section>
@@ -340,7 +375,10 @@ function App() {
 
               <p>
                 Agende uma conversa e saiba mais sobre as
-                <strong> aulas particulares de Inglês e Italiano.</strong>
+                <strong>
+                  {" "}
+                  aulas particulares de Inglês, Italiano e Português.
+                </strong>
               </p>
 
               <div className="ae-contact-phones">
