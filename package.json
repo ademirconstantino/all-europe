@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://alleurope.it.eu.org/",
+  "homepage": "all-europe.constantinoit.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
