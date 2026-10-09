@@ -30,6 +30,7 @@ function Footer() {
             <h4>Languages</h4>
             <a href="#courses">English</a>
             <a href="#courses">Italiano</a>
+            <a href="#courses">Português</a>
             <a href="#contact">Aula experimental</a>
           </div>
 

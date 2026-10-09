@@ -160,7 +160,7 @@ function App() {
                   internacional.
                 </p>
 
-                <a href="#contact" className="ae-card-link">
+                <a href="#packages" className="ae-card-link">
                   Quero aprender Inglês →
                 </a>
               </motion.article>
@@ -193,7 +193,7 @@ function App() {
                   conversação.
                 </p>
 
-                <a href="#contact" className="ae-card-link">
+                <a href="#packages" className="ae-card-link">
                   Inizia il tuo italiano →
                 </a>
               </motion.article>
@@ -226,7 +226,7 @@ function App() {
                       comunicação.
                     </p>
 
-                    <a href="#contact" className="ae-card-link">
+                    <a href="#packages" className="ae-card-link">
                       Quero aprender Português →
                     </a>
                   </motion.article>

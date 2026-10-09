@@ -1,6 +1,6 @@
 # ALL EUROPE — Language School
 
-Single-page React/Vite website for ALL EUROPE, focused on English and Italian.
+Single-page React/Vite website for ALL EUROPE, focused on English, Italian and Portuguese.
 
 ## Stack
 

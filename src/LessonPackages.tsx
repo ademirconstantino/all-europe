@@ -31,7 +31,7 @@ function LessonPackages() { const handlePurchase = (paymentUrl: string) => { win
           </h2>
 
           <p>
-            Escolha um pacote de aulas particulares de Inglês ou Italiano,
+            Escolha um pacote de aulas particulares de Inglês, Italiano ou Português,
             com acompanhamento personalizado e horários flexíveis.
           </p>
         </div>
@@ -77,7 +77,7 @@ function LessonPackages() { const handlePurchase = (paymentUrl: string) => { win
               </p>
 
               <ul className="ae-package-features">
-                <li>✓ Inglês ou Italiano</li>
+                <li>✓ Inglês, Italiano ou Português</li>
                 <li>✓ Aulas individuais</li>
                 <li>✓ Horários flexíveis</li>
                 <li>✓ Conteúdo personalizado</li>
