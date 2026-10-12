@@ -45,10 +45,16 @@ button { font-family: inherit; }
   display: flex; align-items: center; justify-content: space-between;
   border-bottom: 1px solid rgba(255,255,255,.18);
 }
-.ae-logo { display: inline-flex; flex-direction: column; line-height: 1; color: white; }
-.ae-logo-main { font-size: 27px; font-weight: 700; letter-spacing: 5px; }
-.ae-logo-europe { margin-top: 5px; font-size: 13px; font-weight: 500; letter-spacing: 5px; }
-.ae-logo small { margin-top: 7px; font-size: 7px; letter-spacing: 3px; opacity: .7; }
+.ae-logo {
+  --logo-ink: #ffffff; --logo-cut: var(--ae-navy); --logo-sun: #f4c352;
+  display: inline-flex; align-items: center; gap: 14px; line-height: 1; color: white;
+  font-family: "Poppins", var(--ae-sans);
+}
+.ae-logo-mark { display: block; width: 78px; height: auto; flex-shrink: 0; }
+.ae-logo-text { display: flex; flex-direction: column; }
+.ae-logo-name { font-size: 24px; font-weight: 700; letter-spacing: 1px; }
+.ae-logo small { margin-top: 7px; font-size: 9px; font-weight: 500; letter-spacing: 4.6px; color: #f28c38; }
+.ae-footer-logo { --logo-cut: var(--ae-navy-dark); }
 .ae-nav { display: flex; align-items: center; gap: 32px; }
 .ae-nav a {
   position: relative; font-size: 13px; font-weight: 500;
@@ -163,6 +169,43 @@ button { font-family: inherit; }
 .ae-centered-heading { max-width: 700px; margin: 0 auto 65px; text-align: center; }
 .ae-centered-heading p { margin-top: 22px; font-size: 16px; line-height: 1.7; color: var(--ae-muted); }
 
+/* TEACHER */
+.ae-teacher { background: white; padding: 90px 0; }
+.ae-teacher-card {
+  display: grid; grid-template-columns: 200px 1fr; gap: 55px; align-items: start;
+  max-width: 900px;
+}
+.ae-teacher-photo { position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.ae-teacher-frame {
+  position: relative; width: 200px; height: 200px; border-radius: 24px; overflow: hidden;
+  box-shadow: 10px 10px 0 #f4c352, 0 20px 40px rgba(16,36,62,.2);
+}
+.ae-teacher-frame img {
+  display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;
+  filter: saturate(1.1) contrast(1.05) sepia(.12);
+}
+.ae-teacher-flags {
+  margin-top: 14px; padding: 7px 14px; border-radius: 999px;
+  background: var(--ae-navy); font-size: 16px; letter-spacing: 3px;
+}
+.ae-teacher-place { font-size: 11px; font-weight: 700; letter-spacing: 1px; color: var(--ae-muted); }
+.ae-teacher-copy h2 {
+  margin: 14px 0 0; font-size: clamp(32px, 3.6vw, 44px); line-height: 1.1;
+  letter-spacing: -1.5px; font-weight: 600; color: var(--ae-navy);
+}
+.ae-teacher-copy h2 em {
+  font-family: var(--ae-serif); font-weight: 500; font-style: italic; color: var(--ae-red);
+  font-size: .7em; letter-spacing: -.5px;
+}
+.ae-teacher-copy p { margin: 18px 0 0; font-size: 16px; line-height: 1.8; color: var(--ae-muted); }
+.ae-teacher-copy p strong { color: var(--ae-text); }
+.ae-teacher-credentials { margin: 22px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+.ae-teacher-credentials li {
+  padding: 7px 13px; border-radius: 999px; background: var(--ae-cream);
+  font-size: 12px; font-weight: 500; color: var(--ae-navy);
+}
+.ae-teacher-cta { margin-top: 28px; border-radius: 999px; }
+
 /* LANGUAGES */
 .ae-languages { background: var(--ae-light); }
 .ae-language-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
@@ -260,6 +303,10 @@ button { font-family: inherit; }
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .ae-nav-container { min-height: 80px; }
+  .ae-logo { gap: 10px; }
+  .ae-logo-mark { width: 60px; }
+  .ae-logo-name { font-size: 19px; }
+  .ae-logo small { font-size: 7px; letter-spacing: 3.6px; }
   .ae-menu-toggle { display: block; }
   .ae-nav {
     position: absolute; top: 80px; left: 0; width: 100%; display: none;
@@ -273,6 +320,8 @@ button { font-family: inherit; }
   .ae-hero { min-height: 700px; }
   .ae-hero-content { padding-top: 100px; }
   .ae-hero-illustration { display: none; }
+  .ae-teacher-card { grid-template-columns: 1fr; gap: 35px; justify-items: center; text-align: center; }
+  .ae-teacher-credentials { justify-content: center; }
   .ae-material-card { grid-template-columns: 1fr; gap: 30px; padding: 28px; }
   .ae-material-cover { max-width: 260px; }
   .ae-two-columns { grid-template-columns: 1fr; gap: 40px; }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "./Logo";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,11 +9,7 @@ function Navbar() {
   return (
     <header className="ae-navbar">
       <div className="ae-nav-container">
-        <a href="#home" className="ae-logo" onClick={closeMenu}>
-          <span className="ae-logo-main">ALL</span>
-          <span className="ae-logo-europe">EUROPE</span>
-          <small>LANGUAGE SCHOOL</small>
-        </a>
+        <Logo onClick={closeMenu} />
 
         <button
           className={`ae-menu-toggle ${menuOpen ? "active" : ""}`}
@@ -31,6 +28,7 @@ function Navbar() {
           <a href="#methodology" onClick={closeMenu}>Metodologia</a>
           <a href="#materials" onClick={closeMenu}>Materiais</a>
           <a href="#about" onClick={closeMenu}>Sobre</a>
+          <a href="#teacher" onClick={closeMenu}>Professor</a>
           <a href="#contact" className="ae-nav-button" onClick={closeMenu}>
             Contato
           </a>

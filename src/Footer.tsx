@@ -1,14 +1,12 @@
+import Logo from "./Logo";
+
 function Footer() {
   return (
     <footer className="ae-footer">
       <div className="ae-container">
         <div className="ae-footer-main">
           <div className="ae-footer-brand">
-            <a href="#home" className="ae-logo ae-footer-logo">
-              <span className="ae-logo-main">ALL</span>
-              <span className="ae-logo-europe">EUROPE</span>
-              <small>LANGUAGE SCHOOL</small>
-            </a>
+            <Logo className="ae-footer-logo" />
 
             <p>
               Learn languages.

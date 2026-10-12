@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import LessonPackages from "./LessonPackages";
 import Materials from "./Materials";
+import Teacher from "./Teacher";
 
 function App() {
   return (
@@ -26,9 +27,9 @@ function App() {
               </span>
 
               <h1>
-                Speak the world.
+                Dive deep.
                 <br />
-                <span>Live Europe.</span>
+                <span>Immerse yourself in Europe.</span>
               </h1>
 
               <p>
@@ -112,6 +113,8 @@ function App() {
             </motion.div>
           </div>
         </section>
+
+        <Teacher />
 
         {/* LANGUAGES */}
         <section className="ae-section ae-languages" id="courses">
