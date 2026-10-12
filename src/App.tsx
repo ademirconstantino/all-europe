@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import LessonPackages from "./LessonPackages";
+import Materials from "./Materials";
 
 function App() {
   return (
@@ -50,15 +51,15 @@ function App() {
             </motion.div>
 
             <motion.div
-              className="ae-hero-badge"
+              className="ae-hero-illustration"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              <strong>1</strong>
-              <span>×</span>
-              <strong>1</strong>
-              <small>Private · Personal · Online</small>
+              <img
+                src="/estudante-viajante.svg"
+                alt="Jovem estudante sonhador viajando o mundo"
+              />
             </motion.div>
           </div>
 
@@ -358,6 +359,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        <Materials />
 
         {/* CONTACT */}
         <section className="ae-cta" id="contact">

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <title>Jovem estudante sonhador viajando o mundo</title>
+  <defs>
+    <style>
+      .navy{fill:#1F3A5F}
+      .ink{stroke:#1F3A5F;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+      .bubble-text{font-family:Poppins,'Segoe UI',Arial,sans-serif;font-weight:700;font-size:26px}
+    </style>
+    <clipPath id="globeClip"><circle cx="985" cy="980" r="108"/></clipPath>
+  </defs>
+
+  <!-- sombra no chão -->
+  <ellipse cx="620" cy="1105" rx="500" ry="22" fill="#1F3A5F" opacity="0.12"/>
+
+  <!-- ===== caminho do avião de papel ===== -->
+  <path d="M 858 462 C 940 400 960 300 900 250 C 830 190 700 235 640 175 C 590 120 480 120 420 180 C 385 215 350 240 318 280"
+        fill="none" stroke="#1F3A5F" stroke-width="5" stroke-dasharray="4 16" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- ===== Torre Eiffel numa nuvem ===== -->
+  <g>
+    <g fill="#DCEBF7" class="ink">
+      <path d="M 200 540 Q 196 505 232 505 Q 245 478 280 488 Q 305 470 330 492 Q 372 490 372 525 Q 392 540 370 552 L 212 552 Q 186 552 200 540 Z"/>
+    </g>
+    <g fill="#1F3A5F">
+      <path d="M 240 520 Q 265 470 276 420 L 281 360 L 287 318 L 290 298 L 293 318 L 299 360 L 304 420 Q 315 470 340 520 L 318 520 Q 302 482 290 482 Q 278 482 262 520 Z"/>
+      <rect x="262" y="414" width="56" height="9" rx="3"/>
+      <rect x="273" y="356" width="34" height="7" rx="3"/>
+      <rect x="288" y="278" width="4" height="22" rx="2"/>
+    </g>
+  </g>
+
+  <!-- ===== Big Ben numa nuvem ===== -->
+  <g>
+    <g fill="#1F3A5F">
+      <rect x="1016" y="590" width="48" height="112"/>
+      <rect x="1009" y="550" width="62" height="44" rx="4"/>
+      <rect x="1017" y="528" width="46" height="24"/>
+      <path d="M 1011 530 L 1040 466 L 1069 530 Z"/>
+      <rect x="1038" y="446" width="4" height="24" rx="2"/>
+      <rect x="1024" y="610" width="8" height="22" rx="3" fill="#DCEBF7"/>
+      <rect x="1048" y="610" width="8" height="22" rx="3" fill="#DCEBF7"/>
+      <rect x="1024" y="648" width="8" height="22" rx="3" fill="#DCEBF7"/>
+      <rect x="1048" y="648" width="8" height="22" rx="3" fill="#DCEBF7"/>
+    </g>
+    <circle cx="1040" cy="572" r="15" fill="#FFF4E0"/>
+    <path d="M 1040 562 L 1040 572 L 1047 576" fill="none" stroke="#1F3A5F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 960 720 Q 956 688 990 690 Q 1002 664 1036 674 Q 1062 656 1088 678 Q 1128 676 1126 708 Q 1146 722 1124 732 L 972 732 Q 946 732 960 720 Z" fill="#DCEBF7" class="ink"/>
+  </g>
+
+  <!-- ===== balões de idiomas ===== -->
+  <g>
+    <path d="M 92 226 h 136 a 20 20 0 0 1 20 20 v 18 a 20 20 0 0 1 -20 20 h -78 l -18 20 l -2 -20 h -38 a 20 20 0 0 1 -20 -20 v -18 a 20 20 0 0 1 20 -20 Z" fill="#F28C38"/>
+    <text x="160" y="265" text-anchor="middle" class="bubble-text" fill="#FFFFFF">Bonjour!</text>
+  </g>
+  <g>
+    <path d="M 990 360 h 118 a 20 20 0 0 1 20 20 v 18 a 20 20 0 0 1 -20 20 h -36 l -2 20 l -18 -20 h -62 a 20 20 0 0 1 -20 -20 v -18 a 20 20 0 0 1 20 -20 Z" fill="#3AAFA9"/>
+    <text x="1039" y="400" text-anchor="middle" class="bubble-text" fill="#FFFFFF">Hello!</text>
+  </g>
+  <g>
+    <path d="M 446 300 h 96 a 20 20 0 0 1 20 20 v 16 a 20 20 0 0 1 -20 20 h -50 l -16 18 l -2 -18 h -28 a 20 20 0 0 1 -20 -20 v -16 a 20 20 0 0 1 20 -20 Z" fill="#E4572E"/>
+    <text x="494" y="338" text-anchor="middle" class="bubble-text" fill="#FFFFFF">Hola!</text>
+  </g>
+  <g>
+    <path d="M 712 318 h 92 a 20 20 0 0 1 20 20 v 16 a 20 20 0 0 1 -20 20 h -30 l -2 18 l -16 -18 h -44 a 20 20 0 0 1 -20 -20 v -16 a 20 20 0 0 1 20 -20 Z" fill="#F6C453"/>
+    <text x="758" y="356" text-anchor="middle" class="bubble-text" fill="#1F3A5F">Ciao!</text>
+  </g>
+
+  <!-- ===== brilhos ===== -->
+  <g fill="#F6C453">
+    <path d="M 600 70 Q 604 96 628 100 Q 604 104 600 130 Q 596 104 572 100 Q 596 96 600 70 Z"/>
+    <path d="M 160 420 Q 163 438 180 441 Q 163 444 160 462 Q 157 444 140 441 Q 157 438 160 420 Z"/>
+    <path d="M 1130 240 Q 1133 258 1150 261 Q 1133 264 1130 282 Q 1127 264 1110 261 Q 1127 258 1130 240 Z"/>
+    <path d="M 880 600 Q 882 613 895 615 Q 882 617 880 630 Q 878 617 865 615 Q 878 613 880 600 Z"/>
+    <path d="M 380 640 Q 382 653 395 655 Q 382 657 380 670 Q 378 657 365 655 Q 378 653 380 640 Z"/>
+  </g>
+  <g fill="#3AAFA9" opacity="0.7">
+    <circle cx="360" cy="110" r="7"/><circle cx="1000" cy="150" r="6"/><circle cx="110" cy="610" r="6"/><circle cx="1150" cy="820" r="7"/>
+  </g>
+
+  <!-- ===== mala ===== -->
+  <g>
+    <path d="M 205 950 v -26 a 12 12 0 0 1 12 -12 h 36 a 12 12 0 0 1 12 12 v 26" fill="none" stroke="#1F3A5F" stroke-width="10"/>
+    <rect x="160" y="948" width="150" height="142" rx="18" fill="#E4572E" class="ink"/>
+    <rect x="196" y="948" width="12" height="142" fill="#C2441F"/>
+    <rect x="262" y="948" width="12" height="142" fill="#C2441F"/>
+    <circle cx="236" cy="990" r="18" fill="#F6C453"/>
+    <path d="M 226 990 l 7 7 l 13 -14" fill="none" stroke="#1F3A5F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="212" y="1030" width="50" height="26" rx="6" fill="#FFF4E0" transform="rotate(-10 237 1043)"/>
+    <text x="237" y="1050" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-weight="700" font-size="15" fill="#1F3A5F" transform="rotate(-10 237 1043)">EU</text>
+    <circle cx="185" cy="1100" r="9" fill="#1F3A5F"/><circle cx="285" cy="1100" r="9" fill="#1F3A5F"/>
+  </g>
+
+  <!-- ===== globo ===== -->
+  <g>
+    <path d="M 885 905 A 130 130 0 0 0 1060 1092" fill="none" stroke="#1F3A5F" stroke-width="10" stroke-linecap="round"/>
+    <rect x="975" y="1088" width="20" height="14" fill="#1F3A5F"/>
+    <rect x="935" y="1098" width="100" height="14" rx="7" fill="#1F3A5F"/>
+    <circle cx="985" cy="980" r="108" fill="#8FD3E8"/>
+    <g clip-path="url(#globeClip)" fill="#6CC08B">
+      <path d="M 905 905 Q 950 885 975 910 Q 990 940 960 955 Q 945 985 925 1000 Q 900 990 890 960 Q 885 925 905 905 Z"/>
+      <path d="M 1000 900 Q 1040 885 1070 910 Q 1060 935 1035 940 Q 1015 960 1030 985 Q 1055 1010 1040 1045 Q 1010 1060 1000 1030 Q 985 995 995 965 Q 985 930 1000 900 Z"/>
+      <path d="M 930 1030 Q 960 1020 975 1045 Q 970 1075 945 1085 Q 925 1065 930 1030 Z"/>
+      <path d="M 1065 980 Q 1090 975 1095 1000 Q 1085 1015 1070 1005 Z"/>
+    </g>
+    <g clip-path="url(#globeClip)" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6">
+      <ellipse cx="985" cy="980" rx="50" ry="108"/>
+      <line x1="877" y1="980" x2="1093" y2="980"/>
+      <path d="M 885 935 Q 985 955 1085 935"/>
+      <path d="M 885 1025 Q 985 1045 1085 1025"/>
+    </g>
+    <circle cx="985" cy="980" r="108" fill="none" class="ink"/>
+    <path d="M 920 920 Q 940 900 965 893" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- ===== pilha de livros ===== -->
+  <g>
+    <rect x="325" y="1010" width="550" height="85" rx="10" fill="#1F3A5F"/>
+    <rect x="352" y="1022" width="512" height="61" rx="4" fill="#FFF4E0"/>
+    <g stroke="#E2D2B6" stroke-width="3"><line x1="360" y1="1038" x2="856" y2="1038"/><line x1="360" y1="1052" x2="856" y2="1052"/><line x1="360" y1="1066" x2="856" y2="1066"/></g>
+    <rect x="335" y="1022" width="10" height="61" fill="#F6C453"/>
+
+    <rect x="355" y="935" width="490" height="75" rx="10" fill="#3AAFA9" class="ink"/>
+    <rect x="382" y="947" width="452" height="51" rx="4" fill="#FFF4E0"/>
+    <g stroke="#E2D2B6" stroke-width="3"><line x1="390" y1="961" x2="826" y2="961"/><line x1="390" y1="973" x2="826" y2="973"/><line x1="390" y1="985" x2="826" y2="985"/></g>
+
+    <rect x="390" y="870" width="420" height="65" rx="10" fill="#F28C38" class="ink"/>
+    <rect x="417" y="881" width="382" height="43" rx="4" fill="#FFF4E0"/>
+    <g stroke="#E2D2B6" stroke-width="3"><line x1="425" y1="893" x2="791" y2="893"/><line x1="425" y1="903" x2="791" y2="903"/><line x1="425" y1="913" x2="791" y2="913"/></g>
+  </g>
+
+  <!-- ===== estudante ===== -->
+  <!-- mochila -->
+  <rect x="498" y="705" width="204" height="150" rx="34" fill="#D9732B" class="ink"/>
+
+  <!-- pernas penduradas -->
+  <g>
+    <rect x="548" y="862" width="46" height="132" rx="22" fill="#34507A" class="ink"/>
+    <path d="M 536 992 Q 536 1022 572 1024 L 608 1024 Q 616 1006 598 990 Z" fill="#FFFFFF" class="ink"/>
+    <path d="M 540 1012 L 610 1012" stroke="#E4572E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(-10 634 868)">
+    <rect x="612" y="862" width="46" height="122" rx="22" fill="#34507A" class="ink"/>
+    <path d="M 604 982 Q 604 1012 640 1014 L 676 1014 Q 684 996 666 980 Z" fill="#FFFFFF" class="ink"/>
+    <path d="M 608 1002 L 678 1002" stroke="#E4572E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="600" cy="868" rx="94" ry="28" fill="#34507A" class="ink"/>
+
+  <!-- pescoço e tronco -->
+  <rect x="584" y="655" width="32" height="55" rx="10" fill="#E8B48A" class="ink"/>
+  <path d="M 528 718 Q 600 690 672 718 L 690 856 Q 600 880 510 856 Z" fill="#F6C453" class="ink"/>
+  <path d="M 600 735 L 600 860" stroke="#E0A93A" stroke-width="4"/>
+
+  <!-- alças da mochila -->
+  <path d="M 558 712 Q 552 760 556 815" fill="none" stroke="#D9732B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 642 712 Q 648 760 644 815" fill="none" stroke="#D9732B" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- cabeça -->
+  <circle cx="526" cy="615" r="14" fill="#E8B48A" class="ink"/>
+  <circle cx="674" cy="615" r="14" fill="#E8B48A" class="ink"/>
+  <circle cx="600" cy="605" r="76" fill="#E8B48A" class="ink"/>
+  <path d="M 521 612 C 512 540 558 514 604 516 C 656 518 694 548 680 614 C 674 588 662 570 642 565 C 626 580 600 583 584 568 C 568 582 546 588 530 602 Z" fill="#3B2A20" class="ink"/>
+  <path d="M 588 520 Q 596 490 628 500 Q 612 508 612 520 Z" fill="#3B2A20"/>
+  <!-- olhos olhando para cima -->
+  <ellipse cx="574" cy="612" rx="10" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="628" cy="612" rx="10" ry="12" fill="#FFFFFF"/>
+  <circle cx="578" cy="606" r="6" fill="#1F3A5F"/>
+  <circle cx="632" cy="606" r="6" fill="#1F3A5F"/>
+  <circle cx="580" cy="604" r="2" fill="#FFFFFF"/>
+  <circle cx="634" cy="604" r="2" fill="#FFFFFF"/>
+  <path d="M 560 588 Q 573 579 587 586" fill="none" stroke="#3B2A20" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 615 586 Q 629 579 642 588" fill="none" stroke="#3B2A20" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="556" cy="640" r="10" fill="#F28C8C" opacity="0.5"/>
+  <circle cx="646" cy="640" r="10" fill="#F28C8C" opacity="0.5"/>
+  <path d="M 586 646 Q 603 664 620 646 Q 603 654 586 646 Z" fill="#FFFFFF" stroke="#7A3B2E" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- cachecol -->
+  <path d="M 562 690 Q 600 712 640 690 L 646 716 Q 600 738 556 716 Z" fill="#E4572E" class="ink"/>
+  <path d="M 618 714 L 640 784 L 614 790 L 602 720 Z" fill="#C2441F" class="ink"/>
+
+  <!-- mapa no colo -->
+  <path d="M 574 822 L 626 810 L 682 822 L 692 880 L 636 868 L 582 880 Z" fill="#FFF4E0" class="ink"/>
+  <path d="M 626 810 L 636 868" stroke="#1F3A5F" stroke-width="3"/>
+  <path d="M 594 860 Q 620 830 650 848 T 676 832" fill="none" stroke="#E4572E" stroke-width="4" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <circle cx="676" cy="832" r="5" fill="#E4572E"/>
+
+  <!-- braço esquerdo segurando o mapa -->
+  <path d="M 536 730 Q 506 792 530 838 L 584 850" fill="none" stroke="#1F3A5F" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 536 730 Q 506 792 530 838 L 584 850" fill="none" stroke="#F6C453" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="592" cy="850" r="18" fill="#E8B48A" class="ink"/>
+
+  <!-- braço direito erguido lançando o avião -->
+  <path d="M 664 730 Q 732 694 742 622 L 756 566" fill="none" stroke="#1F3A5F" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 664 730 Q 732 694 742 622 L 756 566" fill="none" stroke="#F6C453" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- avião de papel -->
+  <path d="M 766 548 L 858 462 L 800 566 Z" fill="#FFFFFF" class="ink"/>
+  <path d="M 766 548 L 858 462 L 794 538 Z" fill="#DCEBF7" class="ink"/>
+  <circle cx="762" cy="554" r="20" fill="#E8B48A" class="ink"/>
+</svg>

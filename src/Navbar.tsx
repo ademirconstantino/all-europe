@@ -29,6 +29,7 @@ function Navbar() {
           <a href="#home" onClick={closeMenu}>Home</a>
           <a href="#courses" onClick={closeMenu}>Cursos</a>
           <a href="#methodology" onClick={closeMenu}>Metodologia</a>
+          <a href="#materials" onClick={closeMenu}>Materiais</a>
           <a href="#about" onClick={closeMenu}>Sobre</a>
           <a href="#contact" className="ae-nav-button" onClick={closeMenu}>
             Contato
